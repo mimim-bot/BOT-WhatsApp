@@ -1,6 +1,6 @@
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> I'm MIMIM Project
 <p align="center">
-<img src="https://raw.githubusercontent.com/mimim-bot/BOT-WhatsApp/main/aris/A187.jpg" width="230" height="230"/>
+<img src="https://raw.githubusercontent.com/mimim-bot/BOT-WhatsApp/main/assests/mimim.jpg" width="230" height="230"/>
 </p>
 <br>
 
