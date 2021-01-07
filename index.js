@@ -1,15 +1,15 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya Firmansyah
-* jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
+* (Scriptnya MIMIM
+* jangan ubah semuanya kecuali nama bot instagram fb itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!! DI UBAH AUTO EROR GAN
 */
-const XPTN = 'BANGLENT'; // JANGAN DI UBAH NNTI EROR
-const instagram = 'https://instagram.com/maslent11'; // JANGAN DI UBAH NNTI EROR
-const nomer = 'https://Wa.me/+628165466368'; // JANGAN DI UBAH NANTI EROR
+const XPTN = 'MIMIM-BOT'; // JANGAN DI UBAH NNTI EROR
+const instagram = 'https://instagram.com/pingin_waras'; // JANGAN DI UBAH NNTI EROR
+const nomer = 'https://Wa.me/+6287848115476'; // JANGAN DI UBAH NANTI EROR
 const aktif = 'Sesuai Selera'; // DI GANTI AUTO EROR
-const groupwa = 'https://chat.whatsapp.com/E8VriS0ojj53PX5wkhPYaD'; // DI GANTI AUTO EROR
-const youtube = 'https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA'; // DI GANTI AUTO EROR
+const groupwa = 'https://chat.whatsapp.com/H7Z8FF5Rx7xAm1vCjO7Lyj'; // DI GANTI AUTO EROR
+const youtube = 'https://m.facebook.com/khim.m.9?ref=bookmarks'; // DI GANTI AUTO EROR
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -60,7 +60,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] Rikabot Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] MIMIM BOT Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -75,11 +75,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by rikabot`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by mimimbot`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Rikabot`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by mimimbot`)
 })
 
 conn.on('message-new', async(m) =>
@@ -147,10 +147,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner RIKABOT wa.me/+6285640247260' ,MessageType.text);
+conn.sendMessage(id, 'Owner MIMIMBOT wa.me/+6287848115476' ,MessageType.text);
 }
 else if (text == 'De'){
-conn.sendMessage(id, 'aku pembuat Rika bot' ,MessageType.text);
+conn.sendMessage(id, 'aku pembuat mimim bot' ,MessageType.text);
 }
 else if (text == 'rika'){
 conn.sendMessage(id, 'pacar saya😂😂canda..' ,MessageType.text);
@@ -174,7 +174,7 @@ else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/628165466368* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6287848115476* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -1111,25 +1111,25 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI...UNTUK PEMBUATAN BOT INI CEK CHANEL MASLENT YT TINGGALKAN SUBSCRIBE YHA' ,MessageType.text);
+conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI...SEMOGA BERMANFAAT SOB' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MIMIM-BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@pingin_waras' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -1733,7 +1733,7 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah MASLENT YT
+//Tolonglah bro jangan di ubah ubah MIMIM BOT
 
 
 })
