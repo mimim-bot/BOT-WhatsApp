@@ -70,7 +70,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}group* [buka/tutup]
 ┣⊱ *${prefix}demote* [tag]
 ┣⊱ *${prefix}promote* [tag]
-┣⊱ *${prefix}kick*
+┣⊱ *${prefix}kick* [tag]
 ┣⊱ *${prefix}listadmin*
 ┣⊱ *${prefix}simih* [1/0]
 ┣⊱ *${prefix}nsfw* [1/0]
@@ -84,7 +84,7 @@ const help = (prefix) => {
 ┣⊱ *${prefix}setpp*
 ┣⊱ *${prefix}setprefix*
 ┣━━━━━━━━━━━━━━
-┃    *BOT BY AFFIS*
+┃    *BOT BY MIMIM*
 ┗━━━━━━━━━━━━━━
 
 `
